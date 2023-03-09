@@ -1166,7 +1166,6 @@ class PartyMeta(MetaBase):
             }),
             'Default:ZoneInstanceId_s': '',
             'Default:SpectateAPartyMemberAvailable_b': 'false',
-            'Default:TheaterId_s': '',
             'Default:TileStates_j': json.dumps({
                 'TileStates': [],
             }),
@@ -1199,6 +1198,9 @@ class PartyMeta(MetaBase):
                     'buildId': -1,
                     'hotfixVersion': -1,
                     'regionId': '',
+                    'linkId': {
+                        'mnemonic': 'playlist_defaultDuo',
+                    },
                     'playlistName': 'None',
                     'tournamentId': '',
                     'eventWindowId': '',
